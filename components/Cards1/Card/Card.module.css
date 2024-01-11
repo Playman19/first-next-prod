@@ -1,0 +1,22 @@
+.card {
+    background-color: #ffffff70;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.imgWrapper {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.imgWrapper > img {
+    flex: 0 100%;
+    height: 160px;
+    overflow: hidden;
+}
+.infoContainer {
+    padding: 12px;
+}
