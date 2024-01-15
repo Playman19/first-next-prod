@@ -19,7 +19,7 @@ const Index = ({repo}) => {
         <>
             <Head>
                 <meta name="description" content="Мой первый проект на NextJS" />
-                <link rel="shortcut icon" href="../global/favicon.ico" type="image/x-icon"></link>
+                <link rel="shortcut icon" href="/static/favicon.ico" />
                 <title>Главная</title>
             </Head>
             <Header />
