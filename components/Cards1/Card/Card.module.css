@@ -4,6 +4,7 @@
     flex-direction: column;
     overflow: hidden;
     border-radius: 8px;
+
 }
 .imgWrapper {
     height: 160px;
@@ -19,4 +20,50 @@
 }
 .infoContainer {
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.cardTitle,
+.cardPrice {
+    color: #004d00;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px yellowgreen;
+}
+.cardTitle {
+    font-size: 16px;
+}
+.cardPrice {
+    font-weight: 500;
+}
+.cardPrice::after {
+    content: "$";
+}
+.loctime {
+    margin-top: 22px;
+    color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.like {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    background-size: 30px;
+    margin-top: -4px;
+    margin-left: 12px;
+}
+.likeDefault {
+    background-image: url('./sym/like.png');
+}
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-height: 41px;
+    overflow-y: hidden;
 }

@@ -9,7 +9,12 @@ export const Cards1 = ({data}) => {
             <nav className={styles.cardContainer}>
                 {
                     data.map((item) => (
-                        <Card key={item.id} href={'/'} title={item.title} mainImg={item.thumbnail} />
+                        <Card 
+                        key={item.id} 
+                        href={`/product/${item.id}`}
+                        title={item.title} 
+                        mainImg={item.thumbnail} 
+                        price={item.price} />
                     ))
                 }
             </nav>

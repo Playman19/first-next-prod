@@ -14,8 +14,6 @@ export async function getServerSideProps() {
 
 const Index = ({repo}) => {
 
-    console.log(repo)
-
 
     return (
         <>
